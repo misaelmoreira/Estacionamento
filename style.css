@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(226, 240, 247);
+    margin: 20px 150px ;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.entrada {
+  display: flex;
+  margin: 10px 20px;
+  justify-content: center;
+  gap: 30px;
+}
+
+button {
+  border-radius: 5px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+table th{
+  background-color: rgb(53, 206, 168);
+}
+
+table td,
+th {
+  text-align: start;
+  border: 1px solid;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(5, 5, 8);
+}
+
+table td:nth-child(4) {
+    text-align: center;
+}
+
+
+/* Tela para Tablet */
+@media (max-width: 1024px)  {
+  body {
+    margin: 10px 30px;
+  }
+  
+}
+
+/* Tela para Celular */
+@media (max-width: 600px)  {
+  body {
+    margin: 10px 10px;
+  }
+  .entrada{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  h1{
+    margin: 0;
+  }
+
+}
