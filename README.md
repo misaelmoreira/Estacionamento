@@ -1,6 +1,6 @@
 Projeto DIO Estacionamento
 
-Foi desenvolvida um Contrele de Carros para Estacioanamento com o superset do JavaScript o TypeScript. Com objetivo cadastrar os carros e fazer o calculo do tempo em que o carro ficou no estacionamento e rever os conhecimentos adquiridos sobre TypeScript. 
+Foi desenvolvido um Controle de Carros para Estacionamento com o superset do JS o TypeScript. Com objetivo de cadastrar os carros e fazer o calculo do tempo em que o carro ficou no estacionamento e rever os conhecimentos adquiridos sobre TypeScript. 
 
 Resultado final
 
