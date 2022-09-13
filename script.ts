@@ -14,8 +14,7 @@ interface Cliente extends Pessoa {
 }
 
 (function () {
-  const $ = (query: string): HTMLInputElement | null =>
-    document.querySelector(query);
+  const $ = (query: string): HTMLInputElement | null => document.querySelector(query);
 
   function calcTempo(mil: number) {
     const min = Math.floor(mil / 60000);
